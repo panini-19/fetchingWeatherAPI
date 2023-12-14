@@ -1,0 +1,31 @@
+*{
+    margin:auto;
+    padding:auto;
+    font-family: 'Caveat', cursive;
+    color:light
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    background-image: linear-gradient(178deg, #e4f9b2 0%, #9fdbe6 100%);
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+.weather-search {
+    display: flex;
+    align-items: center;
+    border-radius:5px;
+    outline:none;
+}
+
+.weather-search input:focus{
+    margin-right: 10px; 
+    border-radius:5px;
+    outline:none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
